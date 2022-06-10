@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Smart Watch Shop",
+        
+        "description": "It is a website of smart watch.Here a user can easily review of a watch product.In this website i make dashboard. In this section I implement rechart.In this project I used  React Js, React Router, Bootstrap.",
+         
+
+        "img": "https://i.ibb.co/pnW9qTk/image1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Medical Health Care",
+        
+        "description": "It is a website of medical health care service.A user can easily attain all services here.In this project I implement login and logout page with firebase authentication.I also used there ReactJs, React Router, React firebase Hooks, bootstrap.",
+        "img": "https://i.ibb.co/6RN2Xs3/image2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Car Parts Manufacturer",
+        
+        "description": "This website is about parts of car Manufacturer.In this project I implement homepage included banner, tools, summary, gallery etc.In this website I make a dashboard. here all user can individually show their orders/they can also delete the order.I also implement their admin route. An admin can easily show all users order, add product, manage product.In this project I also implement stripe payment gateway.I used ReactJs, Tailwind, Daisy UI, Firebase, React Router, NodeJs, Express, MongoDB etc.",
+        "img": "https://i.ibb.co/9YVLHmg/image3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Convention-Center",
+        
+        "description": "This website about convention-center.i use in this project html,css, bootstrap.In this website i made manner.different package of convention center",
+        "img": "https://i.ibb.co/jgTCNcJ/image4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Phone-Tracker",
+       
+        "description": "This website is about Phone Tracker.In this project i added any one can easily charge phone and show all phone details here.i use html css bootrap javascript etc",
+        "img": "https://i.ibb.co/jD4Gm6k/image5.jpg"
+    }
+]
