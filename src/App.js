@@ -9,7 +9,7 @@ import About from './Pages/Home/About';
 
 function App() {
   return (
-    <div className="mx-auto">
+    <div className="mx-auto bg-purple-100">
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

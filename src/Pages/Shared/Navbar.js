@@ -1,14 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import image from '../../Images/pic.jpg'
 
 const Navbar = () => {
     const navItem =
     <>
-        <li> <a href='#home' className='text-xl'>Home</a></li>
-        <li> <a href='#contact' className='text-xl'>Contact</a></li>
-        <li> <a href='#about'  className='text-xl'>About</a></li>
-        <li> <a href='#skill'  className='text-xl'>Skils</a></li>
-        <li> <a href='#projects'  className='text-xl'>Projects</a></li>
+                    <li> <Link to='/' className='text-xl'>Home</Link></li>
+                    <li> <Link to='about' className='text-xl'>About</Link></li>
+                    <li> <Link to='projects' className='text-xl'>Projects</Link></li>
+                    <li> <Link to='contact' className='text-xl'>Contact</Link></li>
+
+      
 
        
         
