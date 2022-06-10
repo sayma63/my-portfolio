@@ -3,6 +3,7 @@ import Loading from '../Loading';
 import SingleProject from './SingleProject';
 
 const Projects = () => {
+
     const [projects,setProjects]=useState([]);
     const[loading,setLoading]=useState(true);
     useEffect(()=>{

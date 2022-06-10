@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SingleProject = ({project}) => {
     const {id,name,img,description}=project;
+    const navigate= useNavigate()
+    const navigateDetail= (id)=>{
+       navigate(`/projects/${id}`)  
+    }
     return (
         <div>
         <div className="card lg:max-w-lg bg-base-100 shadow-xl">
@@ -14,7 +19,7 @@ const SingleProject = ({project}) => {
 
 
 <div className="card-actions justify-center">
-  <button className="btn btn-primary w-full" >Details</button>
+  <button className="btn btn-primary w-full" onClick={()=>navigateDetail( project.id)} >Details</button>
 </div>
 </div>
 </div>

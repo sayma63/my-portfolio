@@ -6,6 +6,8 @@ import Home from './Pages/Home/Home';
 import Skill from './Pages/Home/Skill';
 import Projects from './Pages/Home/Projects';
 import About from './Pages/Home/About';
+import DetailProject from './Pages/Home/DetailProject';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -16,10 +18,12 @@ function App() {
         <Route path='home' element={<Home></Home>}></Route>
         <Route path='projects' element={<Projects></Projects>}></Route>
         <Route path='skill' element={<Skill></Skill>}></Route>
+        <Route path='/projects/:id' element={<DetailProject></DetailProject>}></Route>
         <Route path='about' element={<About></About>}></Route>
 
         
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
