@@ -10,7 +10,9 @@ import image5 from '../../Images/image5.JPG'
 
 const AllProjects = () => {
     return (
-        <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-10 px-10 mb-10'>
+        <div>
+            <h1 className='text-bold text-5xl text-blue-400 text-center mb-6'>My Projects</h1>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-10 px-10 mb-10'>
             <div class="card w-96 bg-base-100 shadow-xl">
   <figure className= 'px-10 pt-10'><img src={image1} className="w-full" style={{height:'200px'}} alt="Shoes" /></figure>
   <div class="card-body">
@@ -83,6 +85,7 @@ const AllProjects = () => {
  
   
   
+        </div>
         </div>
     );
 };

@@ -16,7 +16,7 @@ const Home = () => {
             <AllProjects></AllProjects>
             <Skill></Skill>
             
-            <Projects></Projects>
+            {/* <Projects></Projects> */}
             <Contact></Contact>
             
         </div>
