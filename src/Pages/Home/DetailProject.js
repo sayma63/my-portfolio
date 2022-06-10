@@ -3,14 +3,15 @@ import { useParams } from 'react-router-dom';
 import Projects from './Projects';
 
 const DetailProject = ({match}) => {
-    const {id}=useParams()
+    const {id,}=useParams()
 
     
 
     const [detail, setDetail] = useState({});
-    const{name,img}=detail;
+    const {name}=detail
+    
     useEffect(()=>{
-        fetch(`http://localhost:3000/projects/${id}`)
+        fetch(`projects.json/projects/${id}`)
         .then(res=>res.json())
         .then(data=>{
             console.log(data)

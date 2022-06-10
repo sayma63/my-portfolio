@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About';
+import AllProjects from './AllProjects';
 import Contact from './Contact';
 import DetailMe from './DetailMe';
 import Projects from './Projects';
@@ -12,6 +13,7 @@ const Home = () => {
            <DetailMe></DetailMe>
 
             <About></About>
+            <AllProjects></AllProjects>
             <Skill></Skill>
             
             <Projects></Projects>
