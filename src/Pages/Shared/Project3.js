@@ -44,6 +44,7 @@ const Project3 = () => {
         <li className='text-xl'>In this project I implement homepage included banner, tools, summary, gallery etc.</li>
         <li className='text-xl'>In this website I make a dashboard. here all user can individually show their orders/they can also delete the order.</li>
         <li className='text-xl'>I also implement their admin route. An admin can easily show all users order, add product, manage product</li>
+        <li className='text-xl'>Admin Email:mehedi@gmail.com, pass:123456</li>
 
         <li className='text-xl'><span className='text-bold text-xl text-blue-700'>Technologies:</span>I used ReactJs, Tailwind, Daisy UI, Firebase, React Router, NodeJs, Express, MongoDB etc.</li>
 

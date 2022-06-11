@@ -52,7 +52,7 @@ const AllProjects = () => {
   <figure className= 'px-10 pt-10'><img src={image4} className="w-full" style={{height:'200px'}} alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title font-bold text-blue-700">Convention Center</h2>
-    <p>Description:This website about convention-center.i use in this project html,css, bootstrap.In this website i made manner.different package of convention center</p>
+    <p>Description:This website about convention-center.i use in this project html,css, bootstrap.In this website i made banner.different package of convention center</p>
     <div className="card-actions justify-center">
   <button className="btn btn-primary w-44"  ><Link to='project4'>Detail</Link></button>
 </div> 
@@ -63,7 +63,7 @@ const AllProjects = () => {
   <figure className= 'px-10 pt-10'><img src={image5} className="w-full" style={{height:'200px'}} alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title font-bold text-blue-700">Phone Tracker</h2>
-    <p>Description:This website is about Phone Tracker.In this project i added any one can easily charge phone and show all phone details here.i use html css bootrap javascript etc</p>
+    <p>Description:This website is about Phone Tracker.In this project i added any one can easily search phone and show all phone details here.i use html css bootrap javascript etc</p>
      <div className="card-actions justify-center">
   <button className="btn btn-primary w-44"  ><Link to='project5'>Detail</Link></button>
 </div> 
