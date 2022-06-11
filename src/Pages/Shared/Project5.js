@@ -8,9 +8,9 @@ const Project5 = () => {
     return (
        <div>
            <h1 className='text-4xl text-center text-blue-700'>Projects Details</h1>
-            <div className='flex justify-center items-center mt-6'>
+            <div className='flex justify-center items-center mt-6 '>
             
-            <div class="card w-3/6 bg-base-100 shadow-xl h-screen">
+            <div class="card w-full bg-base-100 shadow-xl h-screen">
   
 
 

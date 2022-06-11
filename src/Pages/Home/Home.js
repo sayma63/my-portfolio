@@ -1,4 +1,5 @@
 import React from 'react';
+import Carusel from '../Shared/Carusel';
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
 
             <About></About>
             <Service></Service>
+            
             
             <AllProjects></AllProjects>
             <Skill></Skill>
