@@ -12,6 +12,11 @@ import Contact from './Pages/Home/Contact';
 import Blog from './Pages/Home/Blog';
 import NotFound from './Pages/NotFound';
 import Service from './Pages/Home/Service';
+import Project1 from './Pages/Shared/Project1';
+import Project2 from './Pages/Shared/Project2';
+import Project3 from './Pages/Shared/Project3';
+import Project4 from './Pages/Shared/Project4';
+import Project5 from './Pages/Shared/Project5';
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='home' element={<Home></Home>}></Route>
         <Route path='projects' element={<Projects></Projects>}></Route>
+        <Route path='project1' element={<Project1></Project1>}></Route>
+        <Route path='project2' element={<Project2></Project2>}></Route>
+        <Route path='project3' element={<Project3></Project3>}></Route>
+        <Route path='project4' element={<Project4></Project4>}></Route>
+        <Route path='project5' element={<Project5></Project5>}></Route>
         <Route path='contact' element={<Contact></Contact>}></Route>
         <Route path='skill' element={<Skill></Skill>}></Route>
         <Route path='blog' element={<Blog></Blog>}></Route>
