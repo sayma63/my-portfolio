@@ -11,19 +11,19 @@ const Project1 = () => {
            <h1 className='text-4xl text-center text-blue-700'>Projects Details</h1>
             <div className='flex justify-center items-center mt-6'>
             
-            <div class="card w-3/6 bg-base-100 shadow-xl h-screen">
+            <div class="card w-full bg-base-100 shadow-xl h-screen">
   
 
 
             <div class="carousel w-full">
-  <div id="item1" class="carousel-item w-full">
-    <img src={image1} style={{height:'300px'}} class="w-full" />
+  <div id="item1" class="carousel-item  w-full ">
+    <img src={image1} style={{height:'300px'}} class="w-full " />
   </div> 
-  <div id="item2" class="carousel-item w-full">
-    <img src={image2} style={{height:'300px'}} class="w-full" />
+  <div id="item2" class="carousel-item w-full ">
+    <img src={image2} style={{height:'300px'}} class="w-full " />
   </div> 
-  <div id="item3" class="carousel-item w-full">
-    <img src={image3} style={{height:'300px'}} class="w-full" />
+  <div id="item3" class="carousel-item w-full ">
+    <img src={image3} style={{height:'300px'}} class="w-full " />
   </div> 
  
 </div> 
